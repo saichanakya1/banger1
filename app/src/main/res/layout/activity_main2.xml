@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="1001dp"
+        android:layout_height="1001dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <DigitalClock
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="385dp"
+            android:layout_height="35dp"
+            android:text="Click on buttons below to open in your browser."
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="doSomething"
+            android:text="Google" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="doSomething"
+            android:text="Facebook" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="doSomething"
+            android:text="Youtube" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="doSomething"
+            android:text="Instagram" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="200dp"
+            android:onClick="doSomething"
+            android:layout_height="wrap_content"
+            android:text="Tiktok" />
+        <CalendarView
+            android:id="@+id/calendarView3"
+            android:layout_width="360dp"
+
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
